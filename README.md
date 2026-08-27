@@ -70,7 +70,7 @@ MAINNET_PRIVATE_KEY=your_private_key_here
 
 ### 2. Market Configuration
 
-Edit `config.yaml` to define market groups and edge basis points:
+Edit `config.yaml` to define the markets you want to probe. Example configuration:
 
 ```yaml
 crypto_large_cap:
@@ -78,14 +78,13 @@ crypto_large_cap:
   - ETH/USDC PERP
   - BTC/USDC PERP
   - BNB/USDC PERP
-  edge_bps: 40
 
 crypto_mid_cap:
   tickers:
   - DOGE/USDC PERP
   - SOL/USDC PERP
   - LINK/USDC PERP
-  edge_bps: 40
+
 ```
 
 ## Usage

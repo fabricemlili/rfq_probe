@@ -3,7 +3,7 @@ crypto_large_cap:
   - ETH/USDC PERP
   - BTC/USDC PERP
   - BNB/USDC PERP
-  edge_bps: 40
+
 crypto_mid_cap:
   tickers:
   - DOGE/USDC PERP
@@ -69,7 +69,7 @@ crypto_mid_cap:
   - W/USDC PERP
   - WLD/USDC PERP
   - XLM/USDC PERP
-  edge_bps: 100
+
 crypto_small_cap:
   tickers:
   - ZRO/USDC PERP
@@ -115,7 +115,7 @@ crypto_small_cap:
   - SAFE/USDC PERP
   - XAUT/USDC PERP
   - LAYER/USDC PERP
-  edge_bps: 200
+
 crypto_memecoin:
   tickers:
   - WIF/USDC PERP
@@ -132,7 +132,7 @@ crypto_memecoin:
   - NEIRO/USDC PERP
   - TURBO/USDC PERP
   - SHIB/USDC PERP
-  edge_bps: 200
+
 # equity_us:
 #   tickers:
 #   - MSFT/USDC PERP
@@ -150,18 +150,18 @@ crypto_memecoin:
 #   - INTC/USDC PERP
 #   - MU/USDC PERP
 #   - ORCL/USDC PERP
-#   edge_bps: 10
+
 # etf:
 #   tickers:
 #   - GLD/USDC PERP
-#   edge_bps: 10
+
 # commodity:
 #   tickers:
 #   - XAU/USDC PERP
 #   - XAG/USDC PERP
 #   - BRENT/USDC PERP
 #   - WTI/USDC PERP
-#   edge_bps: 10
+
 # crypto_network:
 #   tickers:
 #   - 2Z/USDC PERP
@@ -178,12 +178,12 @@ crypto_memecoin:
 #   - FLR/USDC PERP
 #   - H/USDC PERP
 #   - PI/USDC PERP
-#   edge_bps: 10
+
 # precious_metals:
 #   tickers:
 #   - XPD/USDC PERP
 #   - XPT/USDC PERP
-#   edge_bps: 10
+
 # exchange_cefi:
 #   tickers:
 #   - ASTER/USDC PERP
@@ -193,16 +193,16 @@ crypto_memecoin:
 #   - CRO/USDC PERP
 #   - WLFI/USDC PERP
 #   - PAXG/USDC PERP
-#   edge_bps: 10
+
 # defi:
 #   tickers:
 #   - DEXE/USDC PERP
 #   - SUN/USDC PERP
-#   edge_bps: 10
+
 # memecoin:
 #   tickers:
 #   - PENGU/USDC PERP
-#   edge_bps: 10
+
 # us_tech:
 #   tickers:
 #   - ADBE/USDC PERP
@@ -219,7 +219,7 @@ crypto_memecoin:
 #   - TEM/USDC PERP
 #   - TSM/USDC PERP
 #   - VST/USDC PERP
-#   edge_bps: 10
+
 # us_financial:
 #   tickers:
 #   - AFRM/USDC PERP
@@ -238,7 +238,7 @@ crypto_memecoin:
 #   - SOFI/USDC PERP
 #   - V/USDC PERP
 #   - WFC/USDC PERP
-#   edge_bps: 10
+
 # industrial_defense:
 #   tickers:
 #   - ANET/USDC PERP
@@ -255,7 +255,7 @@ crypto_memecoin:
 #   - RTX/USDC PERP
 #   - SMCI/USDC PERP
 #   - RIVN/USDC PERP
-#   edge_bps: 10
+
 # healthcare_energy:
 #   tickers:
 #   - LLY/USDC PERP
@@ -270,7 +270,7 @@ crypto_memecoin:
 #   - ISRG/USDC PERP
 #   - PFE/USDC PERP
 #   - REGN/USDC PERP
-#   edge_bps: 10
+
 # consumer_platform:
 #   tickers:
 #   - ABNB/USDC PERP
@@ -287,7 +287,7 @@ crypto_memecoin:
 #   - TGT/USDC PERP
 #   - UBER/USDC PERP
 #   - WMT/USDC PERP
-#   edge_bps: 10
+
 # leisure_media:
 #   tickers:
 #   - BYND/USDC PERP
@@ -302,7 +302,7 @@ crypto_memecoin:
 #   - PM/USDC PERP
 #   - PSKY/USDC PERP
 #   - TKO/USDC PERP
-#   edge_bps: 10
+
 # intl_equity:
 #   tickers:
 #   - ASML/USDC PERP
@@ -314,4 +314,3 @@ crypto_memecoin:
 #   - PDD/USDC PERP
 #   - SAP/USDC PERP
 #   - RIO/USDC PERP
-#   edge_bps: 10
