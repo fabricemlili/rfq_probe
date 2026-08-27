@@ -1,0 +1,317 @@
+crypto_large_cap:
+  tickers:
+  - ETH/USDC PERP
+  - BTC/USDC PERP
+  - BNB/USDC PERP
+  edge_bps: 40
+crypto_mid_cap:
+  tickers:
+  - DOGE/USDC PERP
+  - OP/USDC PERP
+  - APT/USDC PERP
+  - ARB/USDC PERP
+  - AVAX/USDC PERP
+  - PUMP/USDC PERP
+  - SEI/USDC PERP
+  - TIA/USDC PERP
+  - TAO/USDC PERP
+  - XMR/USDC PERP
+  - ZEC/USDC PERP
+  - HYPE/USDC PERP
+  - SOL/USDC PERP
+  - LTC/USDC PERP
+  - AAVE/USDC PERP
+  - LINK/USDC PERP
+  - SUI/USDC PERP
+  - ATOM/USDC PERP
+  - XRP/USDC PERP
+  - INJ/USDC PERP
+  - DOT/USDC PERP
+  - ADA/USDC PERP
+  - NEAR/USDC PERP
+  - TRX/USDC PERP
+  - BCH/USDC PERP
+  - ALGO/USDC PERP
+  - VET/USDC PERP
+  - A/USDC PERP
+  - EGLD/USDC PERP
+  - HBAR/USDC PERP
+  - FIL/USDC PERP
+  - ICP/USDC PERP
+  - IMX/USDC PERP
+  - LINEA/USDC PERP
+  - MANTA/USDC PERP
+  - METIS/USDC PERP
+  - MNT/USDC PERP
+  - POL/USDC PERP
+  - S/USDC PERP
+  - STRK/USDC PERP
+  - ZETA/USDC PERP
+  - ZK/USDC PERP
+  - CELO/USDC PERP
+  - COMP/USDC PERP
+  - FET/USDC PERP
+  - LDO/USDC PERP
+  - RUNE/USDC PERP
+  - SKY/USDC PERP
+  - SNX/USDC PERP
+  - TAIKO/USDC PERP
+  - UNI/USDC PERP
+  - BERA/USDC PERP
+  - CRV/USDC PERP
+  - GRT/USDC PERP
+  - KAITO/USDC PERP
+  - KAS/USDC PERP
+  - MOVE/USDC PERP
+  - RENDER/USDC PERP
+  - STX/USDC PERP
+  - THETA/USDC PERP
+  - W/USDC PERP
+  - WLD/USDC PERP
+  - XLM/USDC PERP
+  edge_bps: 100
+crypto_small_cap:
+  tickers:
+  - ZRO/USDC PERP
+  - DYDX/USDC PERP
+  - GMX/USDC PERP
+  - RPL/USDC PERP
+  - 1INCH/USDC PERP
+  - AERO/USDC PERP
+  - CAKE/USDC PERP
+  - CVX/USDC PERP
+  - EIGEN/USDC PERP
+  - ENA/USDC PERP
+  - ETHFI/USDC PERP
+  - JUP/USDC PERP
+  - MORPHO/USDC PERP
+  - PENDLE/USDC PERP
+  - RAY/USDC PERP
+  - SUSHI/USDC PERP
+  - YFI/USDC PERP
+  - AKT/USDC PERP
+  - AR/USDC PERP
+  - AXS/USDC PERP
+  - GALA/USDC PERP
+  - GRASS/USDC PERP
+  - HNT/USDC PERP
+  - ILV/USDC PERP
+  - IO/USDC PERP
+  - JTO/USDC PERP
+  - MANA/USDC PERP
+  - SAND/USDC PERP
+  - USUAL/USDC PERP
+  - VIRTUAL/USDC PERP
+  - ALT/USDC PERP
+  - APE/USDC PERP
+  - BLUR/USDC PERP
+  - DRIFT/USDC PERP
+  - DYM/USDC PERP
+  - FLOW/USDC PERP
+  - NOT/USDC PERP
+  - ONDO/USDC PERP
+  - ORDI/USDC PERP
+  - PYTH/USDC PERP
+  - SAFE/USDC PERP
+  - XAUT/USDC PERP
+  - LAYER/USDC PERP
+  edge_bps: 200
+crypto_memecoin:
+  tickers:
+  - WIF/USDC PERP
+  - PEPE/USDC PERP
+  - TRUMP/USDC PERP
+  - BOME/USDC PERP
+  - BRETT/USDC PERP
+  - DEGEN/USDC PERP
+  - FLOKI/USDC PERP
+  - MEW/USDC PERP
+  - POPCAT/USDC PERP
+  - BONK/USDC PERP
+  - FARTCOIN/USDC PERP
+  - NEIRO/USDC PERP
+  - TURBO/USDC PERP
+  - SHIB/USDC PERP
+  edge_bps: 200
+# equity_us:
+#   tickers:
+#   - MSFT/USDC PERP
+#   - AMZN/USDC PERP
+#   - META/USDC PERP
+#   - COIN/USDC PERP
+#   - NVDA/USDC PERP
+#   - HOOD/USDC PERP
+#   - GOOGL/USDC PERP
+#   - TSLA/USDC PERP
+#   - AAPL/USDC PERP
+#   - PLTR/USDC PERP
+#   - CRCL/USDC PERP
+#   - AVGO/USDC PERP
+#   - INTC/USDC PERP
+#   - MU/USDC PERP
+#   - ORCL/USDC PERP
+#   edge_bps: 10
+# etf:
+#   tickers:
+#   - GLD/USDC PERP
+#   edge_bps: 10
+# commodity:
+#   tickers:
+#   - XAU/USDC PERP
+#   - XAG/USDC PERP
+#   - BRENT/USDC PERP
+#   - WTI/USDC PERP
+#   edge_bps: 10
+# crypto_network:
+#   tickers:
+#   - 2Z/USDC PERP
+#   - BSV/USDC PERP
+#   - CC/USDC PERP
+#   - CHZ/USDC PERP
+#   - DASH/USDC PERP
+#   - ETC/USDC PERP
+#   - NIGHT/USDC PERP
+#   - MON/USDC PERP
+#   - XDC/USDC PERP
+#   - XTZ/USDC PERP
+#   - QNT/USDC PERP
+#   - FLR/USDC PERP
+#   - H/USDC PERP
+#   - PI/USDC PERP
+#   edge_bps: 10
+# precious_metals:
+#   tickers:
+#   - XPD/USDC PERP
+#   - XPT/USDC PERP
+#   edge_bps: 10
+# exchange_cefi:
+#   tickers:
+#   - ASTER/USDC PERP
+#   - LIT/USDC PERP
+#   - VVV/USDC PERP
+#   - OKB/USDC PERP
+#   - CRO/USDC PERP
+#   - WLFI/USDC PERP
+#   - PAXG/USDC PERP
+#   edge_bps: 10
+# defi:
+#   tickers:
+#   - DEXE/USDC PERP
+#   - SUN/USDC PERP
+#   edge_bps: 10
+# memecoin:
+#   tickers:
+#   - PENGU/USDC PERP
+#   edge_bps: 10
+# us_tech:
+#   tickers:
+#   - ADBE/USDC PERP
+#   - AMD/USDC PERP
+#   - CRM/USDC PERP
+#   - AI/USDC PERP
+#   - NFLX/USDC PERP
+#   - NOW/USDC PERP
+#   - PANW/USDC PERP
+#   - PYPL/USDC PERP
+#   - QCOM/USDC PERP
+#   - SNOW/USDC PERP
+#   - CRWD/USDC PERP
+#   - TEM/USDC PERP
+#   - TSM/USDC PERP
+#   - VST/USDC PERP
+#   edge_bps: 10
+# us_financial:
+#   tickers:
+#   - AFRM/USDC PERP
+#   - AXP/USDC PERP
+#   - BAC/USDC PERP
+#   - BLK/USDC PERP
+#   - BX/USDC PERP
+#   - C/USDC PERP
+#   - CME/USDC PERP
+#   - GME/USDC PERP
+#   - GS/USDC PERP
+#   - JPM/USDC PERP
+#   - KKR/USDC PERP
+#   - MS/USDC PERP
+#   - SCHW/USDC PERP
+#   - SOFI/USDC PERP
+#   - V/USDC PERP
+#   - WFC/USDC PERP
+#   edge_bps: 10
+# industrial_defense:
+#   tickers:
+#   - ANET/USDC PERP
+#   - BA/USDC PERP
+#   - GD/USDC PERP
+#   - LMT/USDC PERP
+#   - VRT/USDC PERP
+#   - NOC/USDC PERP
+#   - ARM/USDC PERP
+#   - XPEV/USDC PERP
+#   - OKLO/USDC PERP
+#   - MRVL/USDC PERP
+#   - NIO/USDC PERP
+#   - RTX/USDC PERP
+#   - SMCI/USDC PERP
+#   - RIVN/USDC PERP
+#   edge_bps: 10
+# healthcare_energy:
+#   tickers:
+#   - LLY/USDC PERP
+#   - MRNA/USDC PERP
+#   - NEE/USDC PERP
+#   - NVO/USDC PERP
+#   - AMGN/USDC PERP
+#   - ENPH/USDC PERP
+#   - FSLR/USDC PERP
+#   - GILD/USDC PERP
+#   - HIMS/USDC PERP
+#   - ISRG/USDC PERP
+#   - PFE/USDC PERP
+#   - REGN/USDC PERP
+#   edge_bps: 10
+# consumer_platform:
+#   tickers:
+#   - ABNB/USDC PERP
+#   - AMC/USDC PERP
+#   - CMG/USDC PERP
+#   - COST/USDC PERP
+#   - DIS/USDC PERP
+#   - LULU/USDC PERP
+#   - NKE/USDC PERP
+#   - RBLX/USDC PERP
+#   - SBUX/USDC PERP
+#   - SNAP/USDC PERP
+#   - SPOT/USDC PERP
+#   - TGT/USDC PERP
+#   - UBER/USDC PERP
+#   - WMT/USDC PERP
+#   edge_bps: 10
+# leisure_media:
+#   tickers:
+#   - BYND/USDC PERP
+#   - CHTR/USDC PERP
+#   - FLUT/USDC PERP
+#   - LVS/USDC PERP
+#   - LYV/USDC PERP
+#   - MGM/USDC PERP
+#   - DKNG/USDC PERP
+#   - WBD/USDC PERP
+#   - WYNN/USDC PERP
+#   - PM/USDC PERP
+#   - PSKY/USDC PERP
+#   - TKO/USDC PERP
+#   edge_bps: 10
+# intl_equity:
+#   tickers:
+#   - ASML/USDC PERP
+#   - BABA/USDC PERP
+#   - BIDU/USDC PERP
+#   - GLXY/USDC PERP
+#   - GRAB/USDC PERP
+#   - JD/USDC PERP
+#   - PDD/USDC PERP
+#   - SAP/USDC PERP
+#   - RIO/USDC PERP
+#   edge_bps: 10

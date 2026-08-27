@@ -1,0 +1,84 @@
+# Local notes (server creds, AI scratchpads) — never commit
+CLAUDE.md
+DEPLOYMENT.md
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Test output
+test_output/
+
+# Log files
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Mypy
+.mypy_cache/
+
+# Generated wallet files (for load tests)
+configs/wallets_*.yaml
+
+# Reference / vendor repos (clone for code inspection only, do not commit)
+reference/
+
+# LLM
+.claude.slack-reply*.md
+.docs-pdf-handoff*.md
+
+# Node (TS examples)
+node_modules/
+examples/node_modules/
+examples/package-lock.json
+
+# Local agent dir
+.claude/
