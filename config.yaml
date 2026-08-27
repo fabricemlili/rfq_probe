@@ -155,53 +155,53 @@ crypto_memecoin:
 #   tickers:
 #   - GLD/USDC PERP
 
-# commodity:
-#   tickers:
-#   - XAU/USDC PERP
-#   - XAG/USDC PERP
-#   - BRENT/USDC PERP
-#   - WTI/USDC PERP
+commodity:
+  tickers:
+  - XAU/USDC PERP
+  - XAG/USDC PERP
+  - BRENT/USDC PERP
+  - WTI/USDC PERP
 
-# crypto_network:
-#   tickers:
-#   - 2Z/USDC PERP
-#   - BSV/USDC PERP
-#   - CC/USDC PERP
-#   - CHZ/USDC PERP
-#   - DASH/USDC PERP
-#   - ETC/USDC PERP
-#   - NIGHT/USDC PERP
-#   - MON/USDC PERP
-#   - XDC/USDC PERP
-#   - XTZ/USDC PERP
-#   - QNT/USDC PERP
-#   - FLR/USDC PERP
-#   - H/USDC PERP
-#   - PI/USDC PERP
+crypto_network:
+  tickers:
+  - 2Z/USDC PERP
+  - BSV/USDC PERP
+  - CC/USDC PERP
+  - CHZ/USDC PERP
+  - DASH/USDC PERP
+  - ETC/USDC PERP
+  - NIGHT/USDC PERP
+  - MON/USDC PERP
+  - XDC/USDC PERP
+  - XTZ/USDC PERP
+  - QNT/USDC PERP
+  - FLR/USDC PERP
+  - H/USDC PERP
+  - PI/USDC PERP
 
-# precious_metals:
-#   tickers:
-#   - XPD/USDC PERP
-#   - XPT/USDC PERP
+precious_metals:
+  tickers:
+  - XPD/USDC PERP
+  - XPT/USDC PERP
 
-# exchange_cefi:
-#   tickers:
-#   - ASTER/USDC PERP
-#   - LIT/USDC PERP
-#   - VVV/USDC PERP
-#   - OKB/USDC PERP
-#   - CRO/USDC PERP
-#   - WLFI/USDC PERP
-#   - PAXG/USDC PERP
+exchange_cefi:
+  tickers:
+  - ASTER/USDC PERP
+  - LIT/USDC PERP
+  - VVV/USDC PERP
+  - OKB/USDC PERP
+  - CRO/USDC PERP
+  - WLFI/USDC PERP
+  - PAXG/USDC PERP
 
-# defi:
-#   tickers:
-#   - DEXE/USDC PERP
-#   - SUN/USDC PERP
+defi:
+  tickers:
+  - DEXE/USDC PERP
+  - SUN/USDC PERP
 
-# memecoin:
-#   tickers:
-#   - PENGU/USDC PERP
+memecoin:
+  tickers:
+  - PENGU/USDC PERP
 
 # us_tech:
 #   tickers:
