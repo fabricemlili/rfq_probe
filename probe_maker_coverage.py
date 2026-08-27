@@ -28,8 +28,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Probe maker quote coverage across all markets")
     p.add_argument("--maker", required=True, help="Injective address of the maker to watch")
     p.add_argument("--direction", default="long", choices=["long", "short"])
-    p.add_argument("--quantity", type=float, default=1.0)
-    p.add_argument("--margin", type=float, default=5.0)
+    p.add_argument("--size", type=float, default=5.0, help="Notional size in USDC")
     p.add_argument("--timeout", type=float, default=10.0, help="Quote collection timeout per market (s)")
     p.add_argument("--delay", type=float, default=0.25, help="Delay between markets (s)")
     p.add_argument("--env", default=None, help="Override RFQ_ENV (TESTNET/MAINNET/LOCAL)")
@@ -108,9 +107,8 @@ async def probe_market(
     price_tick = price_stream.min_price_tick_sizes[market_id]
     worst_price = quantize_to_tick(worst_price, price_tick, rounding=rounding)
 
-    quantity = Decimal(str(args.quantity))
-    margin = Decimal(str(args.margin))
-    taker_qty = max(quantity, margin / Decimal(worst_price))
+    size = Decimal(str(args.size))
+    taker_qty = size / Decimal(worst_price)
     taker_qty_str = quantize_quantity(
         taker_qty, price_stream.min_quantity_tick_sizes[market_id]
     )
@@ -124,7 +122,7 @@ async def probe_market(
         "client_id": client_id,
         "market_id": market_id,
         "direction": args.direction,
-        "margin": str(margin),
+        "margin": str(size),
         "quantity": taker_qty_str,
         "worst_price": str(worst_price),
         "expiry": expiry_ms,

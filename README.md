@@ -12,7 +12,7 @@ This utility allows you to systematically test market maker responsiveness acros
 - 🎯 **Maker-specific tracking**: Monitor a specific maker's quote responses
 - ⚡ **Real-time price feeds**: Uses Injective's oracle price streams for accurate pricing
 - 📈 **Detailed reporting**: Tabular output showing market coverage and maker responsiveness
-- 🔧 **Configurable parameters**: Adjust direction, quantity, margins, and timeouts
+- 🔧 **Configurable parameters**: Adjust direction, sizes, and timeouts
 
 ## Prerequisites
 
@@ -106,8 +106,7 @@ Customize the probe parameters:
 python probe_maker_coverage.py \
   --maker inj1ntzp6egl4z6e7gfmvsc63mh8ee5h4m2xqhn3lk \
   --direction long \
-  --quantity 1.0 \
-  --margin 5000 \
+  --size 5000 \
   --timeout 10.0 \
   --delay 0.25 \
   --env TESTNET
@@ -119,18 +118,17 @@ python probe_maker_coverage.py \
 |----------|----------|---------|-------------|
 | `--maker` | Yes | - | Injective address of the maker to monitor |
 | `--direction` | No | `long` | Trade direction: `long` or `short` |
-| `--quantity` | No | `1.0` | Quantity to request in the RFQ |
-| `--margin` | No | `5.0` | Margin amount for the request |
+| `--size` | No | `5.0` | Notional size in USDC |
 | `--timeout` | No | `10.0` | Quote collection timeout per market (seconds) |
 | `--delay` | No | `0.25` | Delay between markets (seconds) |
 | `--env` | No | From `.env` | Override RFQ_ENV (TESTNET/MAINNET/LOCAL) |
 
-### Example with Higher Margin
+### Example with Higher Size (Notional)
 
 ```bash
 .venv/bin/python probe_maker_coverage.py \
   --maker inj1ntzp6egl4z6e7gfmvsc63mh8ee5h4m2xqhn3lk \
-  --margin 4000 \
+  --size 4000 \
   --direction long
 ```
 
