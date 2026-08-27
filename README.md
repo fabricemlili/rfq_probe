@@ -98,6 +98,12 @@ Test a maker's quote coverage with default parameters:
 python probe_maker_coverage.py --maker inj1ntzp6egl4z6e7gfmvsc63mh8ee5h4m2xqhn3lk
 ```
 
+or
+
+```bash
+.venv/bin/python probe_maker_coverage.py --maker inj1ntzp6egl4z6e7gfmvsc63mh8ee5h4m2xqhn3lk
+```
+
 ### Advanced Usage
 
 Customize the probe parameters:
